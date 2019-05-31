@@ -1,0 +1,113 @@
+#mainNav {
+    background-color: #fff06c;
+    font-family: Raleway;
+    opacity: 0.9;
+}
+
+body {
+    font-family: 'Lora';
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 23, 15, 0.65))), url("../img/rainbow.jpg")!important;
+    background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/rainbow.jpg")!important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.form-inline{
+    margin: 10%;
+}
+
+.text-primary {
+    color: #fff06c!important;
+}
+
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(36, 36, 36, 0.5)
+}
+
+.footer {
+    background-color: #303030;
+    opacity: 0.7;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-5, .py-5 {
+    padding-top: 1rem!important;
+}
+
+.section-heading-upper {
+    display:flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+@media (min-width: 992px) {
+.pb-lg-4, .py-lg-4 {
+    padding-bottom: 0.5rem!important;
+}}
+
+@media (min-width: 992px) {
+.pt-lg-4, .py-lg-4 {
+    padding-top: 0.5rem !important;
+}}
+
+.page-section {
+    margin-top: 0rem!important;
+    margin-bottom: 0rem!important;
+}
+
+.page-section about-head {
+    margin-top: 5rem!important;
+    margin-bottom: 5rem!important;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(161, 161, 161, 0.5);
+}
+
+.page-section {
+    background-color: rgba(36, 36, 36, 0.5);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.col-xl-9 mx-auto {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cta .cta-inner:before {
+    border-radius: .5rem;
+    content: '';
+    position: inherit;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid rgba(255,255,255,.85);
+}
+.cta .cta-inner:before {
+    border-radius: .5rem;
+    content: '';
+    position: inherit;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    border: .25rem solid rgba(255,255,255,.85);
+}
+
+.submit-box {
+    display:flex!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
